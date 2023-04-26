@@ -1,0 +1,76 @@
+@model stationary_shop.Models.Orders
+
+@* this will also be used as page title in main layout *@
+@{ ViewData["title"] = "Order creation"; }
+
+@* content header *@
+<div class="main-content-header">
+	<span class="title">@ViewData["title"]</span>
+	<span class="actions">
+		<a 
+			href="@Url.Action("Index")" 
+			class="btn btn-outline-primary btn-sm"
+		>
+			<i class="fa-solid fa-angles-left"></i> Back to the list
+		</a>
+	</span>
+</div>
+
+@* content itself *@
+<div class="main-content-ced">
+@using( Html.BeginForm(FormMethod.Post, new { @class="entity-ce" }) )
+{
+	@Html.AntiForgeryToken()
+
+	@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+	
+	<fieldset>
+		<div class="form-group">
+			@Html.LabelFor(m => m.Id)
+			@Html.EditorFor(m => m.Id)
+			@Html.ValidationMessageFor(m => m.Id, "")
+		</div>
+
+		<div class="form-group">
+			@Html.LabelFor(m => m.OrderDate)
+			@Html.EditorFor(m => m.OrderDate)
+			@Html.ValidationMessageFor(m => m.OrderDate, "")
+		</div>
+
+		<div class="form-group">
+			@Html.LabelFor(m => m.OrderStatus)
+			@Html.EditorFor(m => m.OrderStatus)
+			@Html.ValidationMessageFor(m => m.OrderStatus, "")
+		</div>
+
+        <div class="form-group">
+			@Html.LabelFor(m => m.PaymentStatus)
+			@Html.EditorFor(m => m.PaymentStatus)
+			@Html.ValidationMessageFor(m => m.PaymentStatus, "")
+		</div>
+
+        <div class="form-group">
+			@Html.LabelFor(m => m.ShippingAdress)
+			@Html.EditorFor(m => m.ShippingAdress)
+			@Html.ValidationMessageFor(m => m.ShippingAdress, "")
+		</div>
+	</fieldset>
+
+	<div class="container-fluid d-flex d-row justify-content-end">
+		<button name="save" value="1" class="btn btn-success"><i class="fa-solid fa-floppy-disk"></i> Save</button>
+	</div>
+}
+</div>
+
+@* content footer *@
+<div class="main-content-footer">
+	<span class="title"></span>
+	<span class="actions">
+		<a 
+			href="@Url.Action("Index")" 
+			class="btn btn-outline-primary btn-sm"
+		>
+			<i class="fa-solid fa-angles-left"></i> Back to the list
+		</a>
+	</span>
+</div>

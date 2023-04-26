@@ -1,0 +1,63 @@
+@model IEnumerable<stationary_shop.Models.Orders>
+
+@* this will also be used as page title in main layout *@
+@{ ViewData["title"] = "Orders"; }
+
+@* content header *@
+<div class="main-content-header">
+	<span class="title">@ViewData["title"]</span>
+	<span class="actions">
+		<a href="@Url.Action("Create")" class="btn btn-primary"><i class="fa-solid fa-plus"></i> Create new</a>
+	</span>
+</div>
+
+@* content itself *@
+<div class="main-content-lst">
+	<table class="entity-list">
+		<thead>
+			<tr>
+				<th>
+					@Html.DisplayNameFor(model => model.Id)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.OrderDate)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.OrderStatus)
+				</th>
+ 				<th>
+					@Html.DisplayNameFor(model => model.PaymentStatus)
+				</th>               
+				<th>
+					@Html.DisplayNameFor(model => model.ShippingAdress)
+				</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model) {
+			<tr>
+				<td>
+					@Html.DisplayFor(model => item.Id)
+				</td>
+				<td>
+					@Html.DisplayFor(model => item.OrderDate)
+				</td>
+				<td>
+					@Html.DisplayFor(model => item.OrderStatus)
+				</td>
+				<td>
+                    @Html.DisplayFor(model => item.PaymentStatus)
+				</td>
+				<td>
+					@Html.DisplayFor(model=> item.ShippingAdress)
+				</td>
+				<td>
+					<a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> Update</a>
+					<a href="@Url.Action("Delete", new { id = item.Id })" class="btn btn-danger"><i class="fa-solid fa-trash"></i> Remove</a>
+				</td>
+			</tr>
+			}
+		</tbody>
+	</table>
+</div>

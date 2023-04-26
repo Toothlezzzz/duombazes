@@ -1,0 +1,76 @@
+@model stationary_shop.Models.Orders
+
+@* this will also be used as page title in main layout *@
+@{ ViewData["title"] = "Order deletion"; }
+
+@* content header *@
+<div class="main-content-header">
+	<span class="title">@ViewData["title"]</span>
+	<span class="actions">
+		<a 
+			href="@Url.Action("Index")" 
+			class="btn btn-outline-primary btn-sm"
+		>
+			<i class="fa-solid fa-angles-left"></i> Back to the list
+		</a>
+	</span>
+</div>
+
+@* content itself *@
+<div class="main-content-ced">
+@using( Html.BeginForm(FormMethod.Post, new { @class="entity-d" }) )
+{
+	@Html.AntiForgeryToken()
+
+	<fieldset>
+		<legend class="confirm-msg">Do you really want to remove this entity?</legend>
+
+		<dl>
+			<dt>@Html.DisplayNameFor(m => m.Id)</dt>
+			<dd>@Html.DisplayFor(m => m.Id)</dd>
+
+			<dt>@Html.DisplayNameFor(m => m.OrderDate)</dt>
+			<dd>@Html.DisplayFor(m => m.OrderDate)</dd>
+
+			<dt>@Html.DisplayNameFor(m => m.OrderStatus)</dt>
+			<dd>@Html.DisplayFor(m => m.OrderStatus)</dd>
+
+            <dt>@Html.DisplayNameFor(m => m.PaymentStatus)</dt>
+			<dd>@Html.DisplayFor(m => m.PaymentStatus)</dd>
+
+            <dt>@Html.DisplayNameFor(m => m.ShippingAdress)</dt>
+			<dd>@Html.DisplayFor(m => m.ShippingAdress)</dd>
+		</dl>
+
+		@if( ViewData["deletionNotPermitted"] != null )
+		{
+			<div class="fail-msg">
+				<i class="fa-solid fa-circle-exclamation"></i> This order cannot be deleted.
+			</div>
+		}
+		else
+		{
+			<div class="buttons">
+				<button
+					formaction="@Url.Action("DeleteConfirm", new {id = Model.Id})"
+					class="btn btn-danger"
+					style="white-space: nowrap;"
+				><i class="fa-solid fa-trash"></i> Remove</button>
+			</div>			
+		}
+	</fieldset>
+}
+</div>
+
+@* content footer *@
+<div class="main-content-footer">
+	<span class="title"></span>
+	<span class="actions">
+		<a 
+			href="@Url.Action("Index")" 
+			class="btn btn-outline-primary btn-sm"
+		>
+			<i class="fa-solid fa-angles-left"></i> Back to the list
+		</a>
+	</span>
+</div>

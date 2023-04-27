@@ -1,0 +1,75 @@
+@model IEnumerable<stationary_shop.Models.Products>
+
+@* this will also be used as page title in main layout *@
+@{ ViewData["title"] = ""; }
+
+@* content header *@
+<div class="main-content-header">
+	<span class="title">@ViewData["title"]</span>
+	<span class="actions">
+		<a href="@Url.Action("Create")" class="btn btn-primary"><i class="fa-solid fa-plus"></i> Create new</a>
+	</span>
+</div>
+
+@* content itself *@
+<div class="main-content-lst">
+	<table class="entity-list">
+		<thead>
+			<tr>
+				<th>
+					@Html.DisplayNameFor(model => model.ID)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Name)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Description)
+				</th>
+ 				<th>
+					@Html.DisplayNameFor(model => model.Price)
+				</th>               
+				<th>
+					@Html.DisplayNameFor(model => model.Category)
+				</th>
+                <th>
+					@Html.DisplayNameFor(model => model.Brand)
+				</th>
+                <th>
+					@Html.DisplayNameFor(model => model.Size)
+				</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model) {
+			<tr>
+				<td>
+					@Html.DisplayFor(model => item.ID)
+				</td>
+				<td>
+					@Html.DisplayFor(model => item.Name)
+				</td>
+				<td>
+					@Html.DisplayFor(model => item.Description)
+				</td>
+				<td>
+                    @Html.DisplayFor(model => item.Price)
+				</td>
+				<td>
+					@Html.DisplayFor(model=> item.Category)
+				</td>
+                <td>
+					@Html.DisplayFor(model=> item.Brand)
+				</td>
+                <td>
+					@Html.DisplayFor(model=> item.Size)
+				</td>
+				<td>
+					<a href="@Url.Action("Edit", new { id = item.ID })" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> Update</a>
+					<a href="@Url.Action("Delete", new { id = item.ID })" class="btn btn-danger"><i class="fa-solid fa-trash"></i> Remove</a>
+				</td>
+			</tr>
+			}
+		</tbody>
+	</table>
+</div>

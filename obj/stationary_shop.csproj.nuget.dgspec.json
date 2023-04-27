@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\stationary_shop.csproj": {}
+    "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\stationary_shop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\stationary_shop.csproj": {
+    "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\stationary_shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\stationary_shop.csproj",
+        "projectUniqueName": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\stationary_shop.csproj",
         "projectName": "stationary_shop",
-        "projectPath": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\stationary_shop.csproj",
-        "packagesPath": "C:\\Users\\grigu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\obj\\",
+        "projectPath": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\stationary_shop.csproj",
+        "packagesPath": "C:\\Users\\Nicht\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\grigu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Nicht\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,8 +59,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -76,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

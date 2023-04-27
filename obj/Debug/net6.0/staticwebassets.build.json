@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lIc2Akz88IUDEDaElbA93MYKFkPclqZmBWmLUOQEcWc=",
+  "Hash": "urwJdkDy/bamioaxDiIlcR819FJaq4dFWeFYeDjZc2g=",
   "Source": "stationary_shop",
   "BasePath": "_content/stationary_shop",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "stationary_shop\\wwwroot",
       "Source": "stationary_shop",
-      "ContentRoot": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\",
       "BasePath": "_content/stationary_shop",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\deps\\.gitignore",
+      "Identity": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\deps\\.gitignore",
       "SourceId": "stationary_shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\",
       "BasePath": "_content/stationary_shop",
       "RelativePath": "deps/.gitignore",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\deps\\.gitignore"
     },
     {
-      "Identity": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\deps\\build",
+      "Identity": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\deps\\build",
       "SourceId": "stationary_shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\",
       "BasePath": "_content/stationary_shop",
       "RelativePath": "deps/build",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\deps\\build"
     },
     {
-      "Identity": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\deps\\clean",
+      "Identity": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\deps\\clean",
       "SourceId": "stationary_shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\",
       "BasePath": "_content/stationary_shop",
       "RelativePath": "deps/clean",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\deps\\clean"
     },
     {
-      "Identity": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\deps\\dist\\1f3772178d9e5bed38a6.woff2",
+      "Identity": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\deps\\dist\\1f3772178d9e5bed38a6.woff2",
       "SourceId": "stationary_shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\",
       "BasePath": "_content/stationary_shop",
       "RelativePath": "deps/dist/1f3772178d9e5bed38a6.woff2",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\deps\\dist\\1f3772178d9e5bed38a6.woff2"
     },
     {
-      "Identity": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\deps\\dist\\3cd9fb8fcec4ad0f99d4.ttf",
+      "Identity": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\deps\\dist\\3cd9fb8fcec4ad0f99d4.ttf",
       "SourceId": "stationary_shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\",
       "BasePath": "_content/stationary_shop",
       "RelativePath": "deps/dist/3cd9fb8fcec4ad0f99d4.ttf",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\deps\\dist\\3cd9fb8fcec4ad0f99d4.ttf"
     },
     {
-      "Identity": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\deps\\dist\\41c0f706d8ce93933771.woff2",
+      "Identity": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\deps\\dist\\41c0f706d8ce93933771.woff2",
       "SourceId": "stationary_shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\",
       "BasePath": "_content/stationary_shop",
       "RelativePath": "deps/dist/41c0f706d8ce93933771.woff2",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\deps\\dist\\41c0f706d8ce93933771.woff2"
     },
     {
-      "Identity": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\deps\\dist\\b1a653db79258eeccc5d.ttf",
+      "Identity": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\deps\\dist\\b1a653db79258eeccc5d.ttf",
       "SourceId": "stationary_shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\",
       "BasePath": "_content/stationary_shop",
       "RelativePath": "deps/dist/b1a653db79258eeccc5d.ttf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\deps\\dist\\b1a653db79258eeccc5d.ttf"
     },
     {
-      "Identity": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\deps\\dist\\main.js",
+      "Identity": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\deps\\dist\\main.js",
       "SourceId": "stationary_shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\",
       "BasePath": "_content/stationary_shop",
       "RelativePath": "deps/dist/main.js",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\deps\\dist\\main.js"
     },
     {
-      "Identity": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\deps\\package-lock.json",
+      "Identity": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\deps\\package-lock.json",
       "SourceId": "stationary_shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\",
       "BasePath": "_content/stationary_shop",
       "RelativePath": "deps/package-lock.json",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\deps\\package-lock.json"
     },
     {
-      "Identity": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\deps\\package.json",
+      "Identity": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\deps\\package.json",
       "SourceId": "stationary_shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\",
       "BasePath": "_content/stationary_shop",
       "RelativePath": "deps/package.json",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\deps\\package.json"
     },
     {
-      "Identity": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\deps\\restore",
+      "Identity": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\deps\\restore",
       "SourceId": "stationary_shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\",
       "BasePath": "_content/stationary_shop",
       "RelativePath": "deps/restore",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\deps\\restore"
     },
     {
-      "Identity": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\deps\\src\\css\\forms.scss",
+      "Identity": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\deps\\src\\css\\forms.scss",
       "SourceId": "stationary_shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\",
       "BasePath": "_content/stationary_shop",
       "RelativePath": "deps/src/css/forms.scss",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\deps\\src\\css\\forms.scss"
     },
     {
-      "Identity": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\deps\\src\\css\\index.scss",
+      "Identity": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\deps\\src\\css\\index.scss",
       "SourceId": "stationary_shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\",
       "BasePath": "_content/stationary_shop",
       "RelativePath": "deps/src/css/index.scss",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\deps\\src\\css\\index.scss"
     },
     {
-      "Identity": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\deps\\src\\css\\main.scss",
+      "Identity": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\deps\\src\\css\\main.scss",
       "SourceId": "stationary_shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\",
       "BasePath": "_content/stationary_shop",
       "RelativePath": "deps/src/css/main.scss",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\deps\\src\\css\\main.scss"
     },
     {
-      "Identity": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\deps\\src\\css\\reports.scss",
+      "Identity": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\deps\\src\\css\\reports.scss",
       "SourceId": "stationary_shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\",
       "BasePath": "_content/stationary_shop",
       "RelativePath": "deps/src/css/reports.scss",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\deps\\src\\css\\reports.scss"
     },
     {
-      "Identity": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\deps\\src\\js\\index.js",
+      "Identity": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\deps\\src\\js\\index.js",
       "SourceId": "stationary_shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\",
       "BasePath": "_content/stationary_shop",
       "RelativePath": "deps/src/js/index.js",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\deps\\src\\js\\index.js"
     },
     {
-      "Identity": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\deps\\webpack.config.js",
+      "Identity": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\deps\\webpack.config.js",
       "SourceId": "stationary_shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\",
       "BasePath": "_content/stationary_shop",
       "RelativePath": "deps/webpack.config.js",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\deps\\webpack.config.js"
     },
     {
-      "Identity": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\favicon.ico",
       "SourceId": "stationary_shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grigu\\Desktop\\stationary\\stationary_shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nicht\\OneDrive\\Desktop\\zazaaaaaaaa\\stationary_shop\\wwwroot\\",
       "BasePath": "_content/stationary_shop",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

@@ -62,7 +62,7 @@ namespace stationary_shop.Repositories
 				contact_email,
 				phone_number,
                 date_of_birth,
-                loyalty_program_membership,
+                loyalty_program_membership
 			)
 			VALUES(
 				?id,
@@ -71,7 +71,7 @@ namespace stationary_shop.Repositories
 				?mail,
 				?number,
                 ?birthdate,
-                ?loyaltyprog,
+                ?loyaltyprog
 			)";
 
 		Sql.Insert(query, args => {
@@ -82,6 +82,30 @@ namespace stationary_shop.Repositories
 			args.Add("?number", customer.PhoneNumber);
             args.Add("?birthdate", customer.BirthDate);
             args.Add("?loyaltyprog", customer.LoyaltyProgramMembership);
+		});
+	}
+		public static void Update(Customers customer)
+	{
+		var query =
+			$@"UPDATE `customers`
+			SET
+				first_name=?name,
+				last_name=?surname,
+				contact_email=?mail,
+				phone_number=?number,
+				date_of_birth=?birthdate,
+				loyalty_program_membership=?loyaltyprog
+			WHERE
+				id=?id";
+
+		Sql.Update(query, args => {
+			args.Add("?id", customer.Id);
+			args.Add("?name", customer.Name);
+			args.Add("?surname", customer.Surname);
+			args.Add("?mail", customer.Mail);
+			args.Add("?number", customer.PhoneNumber);
+			args.Add("?birthdate", customer.BirthDate);
+			args.Add("?loyaltyprog", customer.LoyaltyProgramMembership);
 		});
 	}
 	public static void Delete(string id)

@@ -1,7 +1,7 @@
 @model stationary_shop.Models.Customers
 
 @* this will also be used as page title in main layout *@
-@{ ViewData["title"] = "Customer creation"; }
+@{ ViewData["title"] = "Customer editing"; }
 
 @* content header *@
 <div class="main-content-header">
@@ -27,7 +27,7 @@
 	<fieldset>
 		<div class="form-group">
 			@Html.LabelFor(m => m.Id)
-			@Html.EditorFor(m => m.Id)
+			@Html.EditorFor(m => m.Id, new { htmlAttributes = new { @readonly = "readonly" } })
 			@Html.ValidationMessageFor(m => m.Id, "")
 		</div>
 
@@ -55,18 +55,11 @@
 			@Html.ValidationMessageFor(m => m.PhoneNumber, "")
 		</div>
 
-		<div class="form-group">
-			@Html.LabelFor(m => m.BirthDate)
-			@Html.EditorFor(m => m.BirthDate)
-			@Html.ValidationMessageFor(m => m.BirthDate, "")
-		</div>
-
-		<div class="form-group">
+        <div class="form-group">
 			@Html.LabelFor(m => m.LoyaltyProgramMembership)
 			@Html.EditorFor(m => m.LoyaltyProgramMembership)
 			@Html.ValidationMessageFor(m => m.LoyaltyProgramMembership, "")
 		</div>
-		
 	</fieldset>
 
 	<div class="container-fluid d-flex d-row justify-content-end">

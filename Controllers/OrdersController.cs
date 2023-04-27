@@ -4,7 +4,7 @@ using stationary_shop.Repositories;
 using stationary_shop.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace Autonuoma.Controllers
+namespace stationary_shop.Controllers
 {
     public class OrdersController : Controller
     {

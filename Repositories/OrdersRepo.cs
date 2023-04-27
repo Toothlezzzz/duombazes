@@ -56,14 +56,14 @@ namespace stationary_shop.Repositories
 				order_date,
 				order_status,
 				payment_status,
-				shipping_adress,
+				shipping_adress
 			)
 			VALUES(
 				?id,
 				?date,
 				?ordstatus,
 				?paymstatus,
-				?adress,
+				?adress
 			)";
 
 		Sql.Insert(query, args => {

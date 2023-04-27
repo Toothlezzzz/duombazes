@@ -24,7 +24,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	@* ViewData["title"] gets set in view templates *@
-	<title>Autonuoma - @ViewData["title"]</title>
+	<title>Stationary - @ViewData["title"]</title>
 
 	<!-- this contains core scripts and styles and is built by webpack -->
 	<script src="@Url.Content("~/deps/dist/main.js")"></script>
@@ -65,6 +65,9 @@
 							@* main menu links go here *@
 							<li class="nav-item">
 								<a href="@Url.Action("Index", "Orders")" class="@MarkActive("Orders") nav-link">Orders</a>
+							</li>
+							<li class="nav-item"></li>
+								<a href="@Url.Action("Index", "Customers")" class="@MarkActive("Customers") nav-link">Customers</a>
 							</li>
 						</ul>
 

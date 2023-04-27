@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc.Rendering; 
-
 namespace stationary_shop.Models
 {
     public class Orders
